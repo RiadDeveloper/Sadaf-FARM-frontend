@@ -1,7 +1,7 @@
-const Button = () => {
+const Button = ({ text }) => {
   return (
-    <div>
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
+    <div className="mb-6">
+      <button type="submit" className="w-full px-4 py-3 text-xl text-white font-semibold rounded-md border-2 border-blue-400 bg-neutral-600/10 hover:bg-neutral-500/25 duration-200">{text}</button>
     </div>
   );
 };

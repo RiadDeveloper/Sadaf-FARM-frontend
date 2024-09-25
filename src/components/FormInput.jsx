@@ -1,11 +1,10 @@
 const FormInput = ({ name, type, placeholder }) => {
   return (
     <div>
-      <div className="mb-4">
-        <label className="block text-gray-500 font-bold mb-2">{name}</label>
-        <input type={type} className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" placeholder={placeholder} />
+      <div className="mt-4">
+        <label className="block text-gray-200 font-semibold mb-2">{name}</label>
+        <input type={type} className="w-full p-3 rounded-lg outline-none border-2 bg-neutral-800 border-gray-500 focus:border-blue-500 duration-300" id="email" placeholder={placeholder} />
       </div>
-
     </div>
   );
 };
