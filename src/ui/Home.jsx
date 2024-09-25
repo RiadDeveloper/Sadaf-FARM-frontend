@@ -7,7 +7,6 @@ const Home = () => {
     <div className="bg-neutral-900 min-h-screen text-stone-50">
       <Header />
       <Outlet />
-      <h1>Hello world</h1>
       <Footer />
     </div>
   );
