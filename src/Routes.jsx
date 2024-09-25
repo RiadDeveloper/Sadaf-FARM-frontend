@@ -8,6 +8,7 @@ import Profile from "./ui/Profile";
 import TermsOfServices from "./ui/TermsOfServices";
 import UltimateChatAI from "./ui/UltimateChatAI";
 import ErrorPage from "./ui/ErrorPage";
+import Login from "./ui/Login";
 
 const router = createBrowserRouter([
   {
@@ -16,32 +17,36 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/chat',
+        path: 'chat',
         element: <UltimateChatAI />,
       },
       {
-        path: '/invest',
+        path: 'invest',
         element: <Invest />,
       },
       {
-        path: '/contact-us',
+        path: 'contact-us',
         element: <ContactUs />
       },
       {
-        path: '/about-us',
+        path: 'about-us',
         element: <AboutUs />,
       },
       {
-        path: '/privacy-policy',
+        path: 'privacy-policy',
         element: <PrivacyPolicy />,
       },
       {
-        path: '/terms-of-services',
+        path: 'terms-of-services',
         element: <TermsOfServices />,
       },
       {
-        path: '/profile',
+        path: 'profile',
         element: <Profile />,
+      },
+      {
+        path: 'login',
+        element: <Login />,
       }
     ]
   },
