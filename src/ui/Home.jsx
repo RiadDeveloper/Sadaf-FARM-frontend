@@ -7,7 +7,7 @@ const Home = () => {
     <div className="bg-neutral-900 min-h-screen text-stone-50">
       <Header />
       <Outlet />
-      <Footer />
+      <Footer className='relative bottom-0' />
     </div>
   );
 };

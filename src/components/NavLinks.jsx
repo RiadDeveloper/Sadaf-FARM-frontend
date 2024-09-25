@@ -9,8 +9,8 @@ const NavLinks = () => {
       <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="contact-us">Contact Us</Link>
       <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="about-us">About Us</Link>
       <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="privacy-policy">Privacy Policy</Link>
-      <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="terms-of-services">Terms of Services</Link>
-      <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="profile">Profile</Link>
+      <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="login">Login</Link>
+      <Link className="hover:drop-shadow-[0_0_0.05rem_white] duration-200" to="sign-up">Sign Up</Link>
     </div>
   );
 };
