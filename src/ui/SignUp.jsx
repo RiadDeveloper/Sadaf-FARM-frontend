@@ -1,6 +1,6 @@
 import FormInput from "../components/FormInput";
 
-const Login = () => {
+const SignUp = () => {
   return (
     <div className="container mx-auto py-16">
       <div className="flex flex-col items-center justify-center">
@@ -26,4 +26,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

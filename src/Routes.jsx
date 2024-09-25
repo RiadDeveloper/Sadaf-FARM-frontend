@@ -9,6 +9,7 @@ import TermsOfServices from "./ui/TermsOfServices";
 import UltimateChatAI from "./ui/UltimateChatAI";
 import ErrorPage from "./ui/ErrorPage";
 import Login from "./ui/Login";
+import SignUp from "./ui/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <Login />,
+      },
+      {
+        path: 'sign-up',
+        element: <SignUp />,
       }
     ]
   },
