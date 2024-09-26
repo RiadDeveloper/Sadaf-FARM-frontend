@@ -12,7 +12,6 @@ const ContactUs = () => {
           <FormInput name='Email' type='email' placeholder='name@example.com' />
           <FormInput name='Topic' type='text' placeholder='The topic you want to discuss' />
           <FormInput name='Describe' type='text' placeholder='Express your thoughts' />
-          <br />
           <Button text='Send Message' />
         </form>
 
