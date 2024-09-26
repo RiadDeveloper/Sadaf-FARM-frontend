@@ -17,14 +17,10 @@ const Footer = () => {
             <h5 className="font-bold text-xl mb-2">Product</h5>
             <ul className="gap-24">
               <li className="mb-3">
-                <Link to="features" className="hover:underline text-gray-300 font-thin">
-                  Features
-                </Link>
+                <Link to="features" className="hover:underline text-gray-300 font-thin">Features</Link>
               </li>
               <li>
-                <Link to="pricing" className="hover:underline text-gray-300 font-thin">
-                  Pricing
-                </Link>
+                <Link to="pricing" className="hover:underline text-gray-300 font-thin">Pricing</Link>
               </li>
             </ul>
           </div>
@@ -34,19 +30,13 @@ const Footer = () => {
             <h5 className="font-bold text-xl mb-2">Company</h5>
             <ul>
               <li className="mb-3">
-                <Link to="about-us" className="hover:underline text-gray-300 font-thin">
-                  About us
-                </Link>
+                <Link to="about-us" className="hover:underline text-gray-300 font-thin">About us</Link>
               </li>
               <li className="mb-3">
-                <Link to="contact-us" className="hover:underline text-gray-300 font-thin">
-                  Contact us
-                </Link>
+                <Link to="contact-us" className="hover:underline text-gray-300 font-thin">Contact us</Link>
               </li>
               <li className="mb-3">
-                <Link to="invest" className="hover:underline text-gray-300 font-thin">
-                  Invest
-                </Link>
+                <Link to="invest" className="hover:underline text-gray-300 font-thin">Invest</Link>
               </li>
             </ul>
           </div>
