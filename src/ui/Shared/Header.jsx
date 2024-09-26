@@ -1,13 +1,13 @@
 import Logo from "../../components/Logo";
-import NavLinks from "../../components/NavLinks";
-import NavUser from "../../components/NavUser";
+// import NavLinks from "../../components/NavLinks";
+import NavUser from "../../components/DeskNav";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav className="p-3 bg-neutral-800 items-center justify-between hidden md:flex">
       <Link to=""><Logo size={50} /></Link>      
-      <NavLinks />
+      {/* <NavLinks /> */}
       <NavUser />
     </nav>
   );

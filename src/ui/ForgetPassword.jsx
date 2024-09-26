@@ -11,8 +11,8 @@ const ForgetPassword = () => {
         <form className="w-full max-w-sm">
           <FormInput name='Email' type='email' placeholder='Enter your email' />
           <Button text='Send Verification Code' />
-          <p className="text-center mt-6 text-gray-300">Remember your password? <Link to='login' className="text-blue-500 hover:underline">Log in</Link></p>
-          <p className="text-center mt-1 text-gray-300">Don't you have an account? <Link to='sign-up' className="text-blue-500 hover:underline">Sign Up</Link></p>
+          <p className="text-center mt-6 text-gray-300">Remember your password? <Link to='/login' className="text-blue-500 hover:underline">Log in</Link></p>
+          <p className="text-center mt-1 text-gray-300">Don't you have an account? <Link to='/sign-up' className="text-blue-500 hover:underline">Sign Up</Link></p>
         </form>
       </div>
     </div>

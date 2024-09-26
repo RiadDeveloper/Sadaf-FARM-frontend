@@ -14,7 +14,7 @@ const SignUp = () => {
           <FormInput name='Password' type='password' placeholder='At least 8 characters' />
           <FormInput name='Confirmation code' type='number' placeholder='Enter confirmation code' />
           <Button text='Sign Up' />
-          <p className="text-center mt-4 text-gray-300">Already have an account? <Link className="text-blue-500 hover:underline">Log in</Link></p>
+          <p className="text-center mt-4 text-gray-300">Already have an account? <Link to="/login" className="text-blue-500 hover:underline">Log in</Link></p>
         </form>
 
         <p className="text-gray-300 text-center mt-5">Watch the Video: <a href="#" className="text-blue-500 hover:underline">What is CapitalKV?</a></p>
