@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../components/Logo";
 
 const Footer = () => {
@@ -13,39 +14,39 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:space-x-16 text-center md:text-left">
           {/* Product Links */}
           <div className="mb-4 md:mb-0">
-            <h5 className="font-bold mb-2">Product</h5>
+            <h5 className="font-bold text-xl mb-2">Product</h5>
             <ul>
               <li>
-                <a href="#features" className="hover:underline">
+                <Link to="features" className="hover:underline">
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#pricing" className="hover:underline">
+                <Link to="pricing" className="hover:underline">
                   Pricing
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Company Links */}
           <div>
-            <h5 className="font-bold mb-2">Company</h5>
+            <h5 className="font-bold text-xl mb-2">Company</h5>
             <ul>
               <li>
-                <a href="#about" className="hover:underline">
+                <Link to="about" className="hover:underline">
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">
+                <Link to="contact" className="hover:underline">
                   Contact us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#invest" className="hover:underline">
+                <Link to="invest" className="hover:underline">
                   Invest
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -59,26 +60,26 @@ const Footer = () => {
             © 2024 captailkv. All rights reserved.
           </p>
           <div className="flex space-x-4">
-            <a href="#privacy-policy" className="hover:underline">
+            <Link to="privacy-policy" className="hover:underline">
               Privacy Policy
-            </a>
-            <a href="#terms-of-service" className="hover:underline">
+            </Link>
+            <Link to="terms-of-service" className="hover:underline">
               Terms of Service
-            </a>
+            </Link>
           </div>
         </div>
 
         {/* Social Media Icons */}
         <div className="container mx-auto px-4 mt-4 flex justify-center space-x-4 text-gray-500">
-          <a href="#youtube" className="hover:text-white">
+          <Link to="youtube" className="hover:text-white">
             <i className="fab fa-youtube"></i>
-          </a>
-          <a href="#twitter" className="hover:text-white">
+          </Link>
+          <Link to="twitter" className="hover:text-white">
             <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#linkedin" className="hover:text-white">
+          </Link>
+          <Link to="linkedin" className="hover:text-white">
             <i className="fab fa-linkedin"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
