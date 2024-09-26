@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { MdArrowOutward } from "react-icons/md";
 
 
 const NavLinks = () => {
@@ -16,9 +17,8 @@ const NavLinks = () => {
               <Link to="invest">Invest</Link>
               <Link to="contact-us">Contact Us</Link>
               <Link to="about-us">About Us</Link>
-              <Link to="privacy-policy">Privacy Policy</Link>
               <Link to="login">Login</Link>
-              <Link to="sign-up">Sign Up</Link>
+              <Link className="flex" to="sign-up">Join Us <MdArrowOutward className="mt-1 ml-1"/></Link>
             </div>
           </div>
 

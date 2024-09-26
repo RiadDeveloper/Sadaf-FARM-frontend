@@ -3,3 +3,4 @@
 => ReactJS (Vite)  
 => TailwindCSS  
 => React Router  
+=> React Icons
