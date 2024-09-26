@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { MdArrowOutward } from "react-icons/md";
+// import { MdArrowOutward } from "react-icons/md";
 
 const NavLinks = () => {
   return (
@@ -11,13 +11,13 @@ const NavLinks = () => {
             <div className="flex items-center">
               {/* Links */}
               <div className="hidden md:flex md:items-center ml-10 space-x-8">
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="">Home</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="chat">Chat</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="invest">Invest</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="contact-us">Contact Us</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="about-us">About Us</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="login">Login</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 p-2 rounded-lg' : ''} to="sign-up">Join Us <MdArrowOutward /></NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="">Home</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="chat">Chat</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="invest">Invest</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="contact-us">Contact Us</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="about-us">About Us</NavLink>
+                {/* <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="login">Login</NavLink> */}
+                {/* <NavLink className={({ isActive }) => isActive ? 'text-gray-900 font-semibold bg-gray-300 px-3 py-1 rounded-lg' : ''} to="sign-up">Join Us <MdArrowOutward className="inline mb-[5px]" /></NavLink> */}
               </div>
             </div>
 
