@@ -11,13 +11,18 @@ import ErrorPage from "./ui/ErrorPage";
 import Login from "./ui/Login";
 import SignUp from "./ui/SignUp";
 import ForgetPassword from "./ui/ForgetPassword";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: '/',
+        element: <Home />,
+      },
       {
         path: 'chat',
         element: <UltimateChatAI />,
