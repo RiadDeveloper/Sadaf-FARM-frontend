@@ -16,7 +16,7 @@ const Login = () => {
           <div className="-mt-4">
             <Button text='Log In' />
           </div>
-          <p className="text-center text-gray-300">Don't you have an account? <Link to='sign-up' className="text-blue-500 hover:underline">Sign Up</Link></p>
+          <p className="text-center mt-4 text-gray-300">Don't you have an account? <Link to='sign-up' className="text-blue-500 hover:underline">Sign Up</Link></p>
         </form>
 
         <p className="text-gray-300 text-center mt-5">Watch the Video: <a href="#" className="text-blue-500 hover:underline">What is CapitalKV?</a></p>
