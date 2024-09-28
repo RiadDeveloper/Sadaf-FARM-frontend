@@ -6,7 +6,7 @@ import Invest from "./ui/Invest";
 import PrivacyPolicy from "./ui/PrivacyPolicy";
 import Profile from "./ui/Profile";
 import TermsOfServices from "./ui/TermsOfServices";
-import UltimateChatAI from "./ui/UltimateChatAI";
+import ChatAI from "./ui/ChatAI";
 import ErrorPage from "./ui/ErrorPage";
 import Login from "./ui/Login";
 import SignUp from "./ui/SignUp";
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'chat',
-        element: <UltimateChatAI />,
+        element: <ChatAI />,
       },
       {
         path: 'invest',
