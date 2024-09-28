@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import AboutUs from "./ui/AboutUs";
 import ContactUs from "./ui/ContactUs";
-import Home from "./ui/Home";
+import Home from "./ui/Home/Home";
 import Invest from "./ui/Invest";
 import PrivacyPolicy from "./ui/PrivacyPolicy";
 import Profile from "./ui/Profile";

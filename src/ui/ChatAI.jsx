@@ -12,7 +12,7 @@ const ChatAI = ({ isAccelerator = false }) => {
       setTimeout(() => {
         setMessages(prev => [...prev, {
           type: 'ai',
-          content: `Here's some information about cryptocurrency related to "${input}"...`
+          content: `Here's some information about ${input} from AI`
         }]);
       }, 1000);
       setInput('');
