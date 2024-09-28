@@ -11,7 +11,7 @@ const Footer = () => {
         </Link>
 
         {/* Links Section */}
-        <div className="flex flex-col md:flex-row md:space-x-16 text-center md:text-left">
+        <div className="flex flex-row space-x-16 text-center md:text-left">
           {/* Product Links */}
           <div className="mb-4 md:mb-0">
             <h5 className="font-bold text-xl mb-2">Product</h5>
@@ -46,16 +46,10 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="border-t border-gray-800 mt-8 pt-4">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-start items-center text-sm">
-          <p className="mb-4 mr-10 md:mb-0 text-gray-300 font-thin">
-            © 2024 captailkv. All rights reserved.
-          </p>
+          <p className="mb-4 md:mr-10 md:mb-0 text-gray-300 font-thin">© 2024 captailkv. All rights reserved.</p>
           <div className="flex space-x-4">
-            <Link to="privacy-policy" className="hover:underline text-gray-300 font-thin">
-              Privacy Policy
-            </Link>
-            <Link to="terms-service" className="hover:underline text-gray-300 font-thin">
-              Terms of Service
-            </Link>
+            <Link to="privacy-policy" className="hover:underline text-gray-300 font-thin">Privacy Policy</Link>
+            <Link to="terms-service" className="hover:underline text-gray-300 font-thin">Terms of Service</Link>
           </div>
         </div>
 
